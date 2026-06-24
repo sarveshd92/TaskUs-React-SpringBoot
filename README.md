@@ -26,7 +26,7 @@ CREATE DATABASE todo_app_db;
 ### 2. Update application.properties
 Edit `backend/src/main/resources/application.properties`:
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/todo_app_db
+spring.datasource.url=jdbc:sql://localhost:5432/todo_app_db
 spring.datasource.username=sql
 spring.datasource.password=YOUR_ACTUAL_PASSWORD
 ```
